@@ -1,1 +1,32 @@
+1-lesson: Intraduction. Numbers.
 
+Homework:
+#     1. Given a side of square. Find its perimeter and area.  - Квадратнинг томони берилган. Унинг периметри ва юзасини топинг.
+
+a = float(input("Kvadrat tomoni a ni kiriting: "))
+perimetr = 4 * a
+yuza = a * a
+print("Kvadrat perimetri:", perimetr)
+print("Kvadrat yuzasi:", yuza)
+# 2. Given diameter of circle. Find its length. - Айлананинг диаметри берилган. Унинг узунлигини (айлана узунлигини) топинг.
+
+d = float(input("Aylana diametri d ni kiriting:"))
+pi = 3.14159
+uzunlik = pi * d
+print("Aylana uzunligi:", uzunlik)
+
+# 3. Given two numbers a and b. Find their mean. - a ва b сонлари берилган. Уларнинг ўртача қийматини топинг.
+
+a = float(input("a ni kiriting: "))
+b = float(input("b ni kiriting: "))
+orta = (a + b) / 2
+print("O‘rtacha qiymat:", orta)
+# 4. Given two numbers a and b. Find their sum, product and square of each number. - 
+# a ва b сонлари берилган. Уларнинг йиғиндисини, кўпайтмасини ва ҳар бир соннинг квадратини топинг.
+
+a = float(input("a ni kiriting: "))
+b = float(input("b ni kiriting: "))
+print("Yig‘indi:", a + b)
+print("Ko‘paytma:", a * b)
+print("a ning kvadrati:", a ** 2)
+print("b ning kvadrati:", b ** 2)
